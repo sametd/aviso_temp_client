@@ -1,0 +1,12 @@
+[project]
+name = "aviso-sse-client"
+version = "0.1.0"
+description = "Simple SSE client for ECMWF Aviso notifications"
+authors = [
+    {name = "Samet Demir"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.0",
+    "sseclient-py>=1.8.0",
+]
